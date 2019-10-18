@@ -1,1 +1,23 @@
 // Put any SCSS or CSS here to override styles
+#splash {
+    color: black;
+
+    >.container {
+        .header {
+            color: #f6f7fe;
+            font-size: 2em;
+        }
+    }
+}
+
+#banner {
+    padding: 2em 0 2em 0;
+
+    .content {
+        color: black;
+        
+        .a {
+            color: black;
+        }
+    }
+}
