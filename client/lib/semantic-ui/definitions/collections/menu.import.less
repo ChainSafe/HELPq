@@ -244,7 +244,7 @@
   font-size: @dropdownItemFontSize !important;
   padding: @dropdownItemPadding !important;
   background: @dropdownItemBackground !important;
-  color: @dropdownItemColor !important;
+  color: black !important;
   text-transform: @dropdownItemTextTransform !important;
   font-weight: @dropdownItemFontWeight !important;
   box-shadow: @dropdownItemBoxShadow !important;
@@ -822,7 +822,7 @@ Floated Menu / Item
 .ui.secondary.menu .active.item {
   box-shadow: none;
   background: @secondaryActiveItemBackground;
-  color: @secondaryActiveItemColor;
+  color: rgba(0, 0, 0, 0.8);
   border-radius: @secondaryItemBorderRadius;
 }
 
@@ -830,24 +830,24 @@ Floated Menu / Item
 .ui.secondary.menu .active.item:hover {
   box-shadow: none;
   background: @secondaryActiveHoverItemBackground;
-  color: @secondaryActiveHoverItemColor;
+  color: rgba(0, 0, 0, 0.8);
 }
 
-
+/* @gregthegreek - @override colours*/
 /* Inverted */
 .ui.secondary.inverted.menu .link.item,
 .ui.secondary.inverted.menu a.item {
-  color: @secondaryInvertedColor !important;
+  color: rgba(0, 0, 0, 0.8) !important;
 }
 .ui.secondary.inverted.menu .dropdown.item:hover,
 .ui.secondary.inverted.menu .link.item:hover,
 .ui.secondary.inverted.menu a.item:hover {
   background: @secondaryInvertedHoverBackground;
-  color: @secondaryInvertedHoverColor !important;
+  color: rgba(0, 0, 0, 0.4) !important;
 }
 .ui.secondary.inverted.menu .active.item {
   background: @secondaryInvertedActiveBackground;
-  color: @secondaryInvertedActiveColor !important;
+  color: rgba(0, 0, 0, 1) !important;
 }
 
 /* Fix item margins */
@@ -1318,7 +1318,7 @@ Floated Menu / Item
 .ui.inverted.menu .item,
 .ui.inverted.menu .item > a:not(.ui) {
   background: @invertedItemBackground;
-  color: @invertedItemTextColor;
+  color: rgba(0, 0, 0, 0.8);
 }
 .ui.inverted.menu .item.menu {
   background: @invertedSubMenuBackground;
